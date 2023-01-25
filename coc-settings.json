@@ -1,0 +1,20 @@
+{
+  "dialog.floatHighlight": "CocFloatingBorder",
+  "diagnostic.checkCurrentLine": true,
+  "diagnostic.virtualText": true,
+  "diagnostic.floatConfig": {
+    "border": true,
+    "highlight": "Normal",
+    "maxWidth": 100,
+    "focusable": false,
+    "rounded": true
+  },
+  "coc.preferences.formatOnSave": true,
+  "eslint.autoFixOnSave": true,
+  "eslint.run": "onSave",
+  "eslint.format.enable": true,
+  "suggest.floatConfig": {
+    "rounded": true,
+    "border": true
+  }
+}
