@@ -1,7 +1,8 @@
 {
   "dialog.floatHighlight": "CocFloatingBorder",
   "diagnostic.checkCurrentLine": true,
-  "diagnostic.virtualText": false,
+  "diagnostic.enableMessage": "never",
+  "diagnostic.virtualText": true,
   "diagnostic.floatConfig": {
     "border": true,
     "highlight": "Normal",
@@ -9,12 +10,28 @@
     "focusable": false,
     "rounded": true
   },
+  "suggest.floatConfig": {
+    "border": true,
+    "highlight": "Normal",
+    "maxWidth": 100,
+    "rounded": true
+  },
+  "signature.floatConfig": {
+    "border": true,
+    "highlight": "Normal",
+    "maxWidth": 100,
+    "rounded": true
+  },
+  "hover.floatConfig": {
+    "border": true,
+    "highlight": "Normal",
+    "maxWidth": 100,
+    "rounded": true
+  },
+  "dialog.floatBorderHighlight": "Normal",
+  "signature.hideOnTextChange": true,
   "coc.preferences.formatOnSave": true,
   "eslint.autoFixOnSave": true,
   "eslint.run": "onSave",
-  "eslint.format.enable": true,
-  "suggest.floatConfig": {
-    "rounded": true,
-    "border": true
-  }
+  "eslint.format.enable": true
 }

@@ -6,7 +6,8 @@ vim.keymap.set('i', '<Tab>', '<S-Tab>')
 vim.keymap.set('n', '<leader>w', '<cmd>write<cr>', { desc = 'Save' })
 vim.keymap.set('n', '<C-s>', '<cmd>write<cr>', { desc = 'Save' })
 vim.keymap.set('i', '<C-s>', '<cmd>write<cr>', { desc = 'Save' })
-vim.keymap.set({ 'i', 'v' }, '<C-i>', '<Esc>')
+vim.keymap.set('i', '<C-i>', '<Esc>')
+vim.keymap.set('v', '<C-i>', '<Esc>')
 
 -- Move lines
 vim.keymap.set('n', '<C-Up>', 'ddkP')
