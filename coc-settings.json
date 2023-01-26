@@ -1,7 +1,7 @@
 {
   "dialog.floatHighlight": "CocFloatingBorder",
   "diagnostic.checkCurrentLine": true,
-  "diagnostic.virtualText": true,
+  "diagnostic.virtualText": false,
   "diagnostic.floatConfig": {
     "border": true,
     "highlight": "Normal",

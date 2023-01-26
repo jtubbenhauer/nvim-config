@@ -5,6 +5,7 @@ vim.keymap.set('i', '<Tab>', '<S-Tab>')
 -- Save and get out of instert mode
 vim.keymap.set('n', '<leader>w', '<cmd>write<cr>', { desc = 'Save' })
 vim.keymap.set('n', '<C-s>', '<cmd>write<cr>', { desc = 'Save' })
+vim.keymap.set('i', '<C-s>', '<cmd>write<cr>', { desc = 'Save' })
 vim.keymap.set({ 'i', 'v' }, '<C-i>', '<Esc>')
 
 -- Move lines
@@ -19,3 +20,7 @@ vim.keymap.set('v', '<C-Down>', 'xp`[V`]')
 vim.keymap.set('v', '<C-j>', 'xp`[V`]')
 
 vim.keymap.set('n', '<leader>gg', ':LazyGit<cr>')
+
+vim.keymap.set('n', '<leader>tp', 'gT');
+vim.keymap.set('n', '<leader>dv', ':DiffviewOpen<cr>')
+vim.keymap.set('n', '<leader>dvm', ':DiffviewOpen master<cr>')
