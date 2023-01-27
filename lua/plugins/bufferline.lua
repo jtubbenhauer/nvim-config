@@ -11,7 +11,7 @@ return {
       options = {
         offsets = {
           {
-            filetype = 'NvimTree',
+            filetype = 'NeoTree',
             text = 'File Explorer',
             text_align = 'center',
             seperator = true
