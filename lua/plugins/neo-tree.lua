@@ -1,10 +1,17 @@
 return {
   'nvim-neo-tree/neo-tree.nvim',
   branch = 'v2.x', 
+  lazy = false,
   dependencies = {
     'nvim-lua/plenary.nvim',
     'nvim-tree/nvim-web-devicons',
     'MunifTanjim/nui.nvim'
+  },
+  keys = {
+    { '<leader>et', ':Neotree toggle<cr>' },
+    { '<leader>eb', ':Neotree buffers<cr>' },
+    { '<leader>egs', ':Neotree git_status git_base=HEAD<cr>' },
+    { '<leader>egm', ':Neotree git_status git_base=origin/HEAD<cr>' }
   },
   config = function ()
     -- Unless you are still migrating, remove the deprecated commands from v1.x
@@ -24,7 +31,16 @@ return {
       require('neo-tree').setup({
         source_selector = {
           winbar = true
-        }
+        },
+        filesystem = {
+          follow_current_file = true,
+          group_empty_dirs = true
+       },
+       default_component_configs = {
+         indent = {
+           indent_size = 1
+         }
+       }
       })
 
   end
