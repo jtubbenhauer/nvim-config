@@ -16,6 +16,7 @@ vim.opt.expandtab = true
 vim.opt.mouse = 'a'
 vim.opt.updatetime = 250
 vim.opt.cursorline = true
+vim.cmd[[set fillchars+=diff:.]]
 vim.wo.signcolumn= 'yes'
 vim.opt.completeopt = 'menuone,noselect'
 vim.g.telescope_changed_files_branch = 'master'

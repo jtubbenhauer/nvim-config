@@ -21,7 +21,9 @@ vim.keymap.set('v', '<C-Down>', 'xp`[V`]')
 vim.keymap.set('v', '<C-j>', 'xp`[V`]')
 
 vim.keymap.set('n', '<leader>gg', ':LazyGit<cr>')
+vim.keymap.set('n', '<leader>gbm', ':Gitsigns change_base origin/HEAD<cr>')
+vim.keymap.set('n', '<leader>gb', ':Gitsigns change_base<cr>')
+vim.keymap.set('n', '<leader>gd', ':Gitsigns diffthis origin/HEAD<cr>')
 
 vim.keymap.set('n', '<leader>tp', 'gT');
-vim.keymap.set('n', '<leader>dv', ':DiffviewOpen<cr>')
-vim.keymap.set('n', '<leader>dvm', ':DiffviewOpen master<cr>')
+

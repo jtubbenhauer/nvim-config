@@ -1,7 +1,7 @@
 {
   "dialog.floatHighlight": "CocFloatingBorder",
   "diagnostic.checkCurrentLine": true,
-  "diagnostic.enableMessage": "never",
+  "diagnostic.enableMessage": "jump",
   "diagnostic.virtualText": true,
   "diagnostic.floatConfig": {
     "border": true,
@@ -33,5 +33,10 @@
   "coc.preferences.formatOnSave": true,
   "eslint.autoFixOnSave": true,
   "eslint.run": "onSave",
-  "eslint.format.enable": true
+  "eslint.format.enable": true,
+  "typescript.inlayHints.variableTypes.enabled": false,
+  "typescript.inlayHints.parameterTypes.enabled": true,
+  "typescript.inlayHints.functionLikeReturnTypes.enabled": false,
+  "typescript.inlayHints.enumMemberValues.enabled": false,
+  "typescript.inlayHints.parameterNames.enabled": "all"
 }
