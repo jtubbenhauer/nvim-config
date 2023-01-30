@@ -10,10 +10,11 @@ return {
           DiffAdd = { bg = "#283F3E" },
           DiffText = { bg = "#283F3E" },
           DiffDelete = { bg = "#47313A" },
-          CocInlayHint = { fg = dracula.colors().comment }
+          CocInlayHint = { fg = dracula.colors().comment },
         }
       })
       vim.cmd([[colorscheme dracula]])
+      vim.cmd([[highlight IndentBlanklineContextChar guifg=#69FF94 gui=nocombine]])
     end
   },
 }

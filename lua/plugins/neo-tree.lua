@@ -40,6 +40,9 @@ return {
          indent = {
            indent_size = 1
          }
+       },
+       buffers = {
+         group_empty_dirs = true
        }
       })
 
