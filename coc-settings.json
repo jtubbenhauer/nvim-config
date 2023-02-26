@@ -34,7 +34,7 @@
   "eslint.run": "onSave",
   "eslint.format.enable": true,
   "typescript.inlayHints.variableTypes.enabled": false,
-  "typescript.inlayHints.parameterTypes.enabled": false,
+  "typescript.inlayHints.parameterTypes.enabled": true,
   "typescript.inlayHints.functionLikeReturnTypes.enabled": false,
   "typescript.inlayHints.enumMemberValues.enabled": false
 }
